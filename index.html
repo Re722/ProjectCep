@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.2">
+    <title>Consultar CEP</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="one">Consultando o Cep</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="cep">Cep </label>           
+                <input type="text" class="form-control" placeholder="00000-000" id="cep">
+                
+            </div>
+            <div class="form-group">
+                <label for="logradouro">Logradouro </label>           
+                <input type="text" class="form-control" id="logradouro">
+                
+            </div>
+            <div class="form-group">
+                <label for="bairro">Bairro </label>           
+                <input type="text" class="form-control" id="bairro">
+                
+            </div>
+            <div class="form-group">
+                <label for="localidade">Localidade </label>           
+                <input type="text" class="form-control" id="localidade">
+                
+            </div>
+            <div class="form-group">
+                <label for="uf">UF </label>           
+                <input type="text" class="form-control" id="uf">
+                
+            </div>
+
+            <br>
+            <input type="button"  onclick="enviar()" value="Enviar">
+        </form>
+    </div>
+    <script src="src/src.js/main.js"></script>
+    
+</body>
+</html>

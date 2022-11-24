@@ -1,0 +1,12 @@
+.form-group{
+    background-color: blue;
+    color: rgb(55, 31, 160);
+}
+.container{
+    padding: 2,2,2,2;
+    position: absolute;
+    text-align: center;
+}
+.one{
+    text-align: center;
+}
