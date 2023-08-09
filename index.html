@@ -6,42 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.2">
     <title>Consultar CEP</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="src/src.js/main.js"></script>
+
 </head>
 <body>
     <div class="container">
-        <h1 class="one">Consultando o Cep</h1>
+        <h1 class="box">Consultando o Cep</h1>        
         <form action="">
             <div class="form-group">
                 <label for="cep">Cep </label>           
                 <input type="text" class="form-control" placeholder="00000-000" id="cep">
                 
             </div>
+            <p>
             <div class="form-group">
                 <label for="logradouro">Logradouro </label>           
-                <input type="text" class="form-control" id="logradouro">
+                <input type="text" class="form-control" placeholder="Rua" id="logradouro">
                 
             </div>
+            <p>
             <div class="form-group">
                 <label for="bairro">Bairro </label>           
                 <input type="text" class="form-control" id="bairro">
                 
             </div>
+            <p>
             <div class="form-group">
                 <label for="localidade">Localidade </label>           
-                <input type="text" class="form-control" id="localidade">
+                <input type="text" class="form-control" placeholder="Cidade" id="localidade">
                 
             </div>
+            <p>
             <div class="form-group">
                 <label for="uf">UF </label>           
                 <input type="text" class="form-control" id="uf">
                 
-            </div>
-
-            <br>
-            <input type="button"  onclick="enviar()" value="Enviar">
-        </form>
-    </div>
-    <script src="src/src.js/main.js"></script>
-    
+            </div>   
+            <p>                    
+                        
+        </form> 
+        <input type="button"  onclick="enviar()" value="Enviar">                                                                                                       
+    </div>    
+   
 </body>
+
 </html>
